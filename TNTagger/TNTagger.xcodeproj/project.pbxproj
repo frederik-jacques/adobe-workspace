@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		860FF9FF262D620100B93103 /* TNTagEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FF9FE262D620100B93103 /* TNTagEngine.swift */; };
-		860FFA0B262D626600B93103 /* ACPAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA03262D626600B93103 /* ACPAnalytics.xcframework */; };
-		860FFA0C262D626600B93103 /* ACPMobileServices.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA05262D626600B93103 /* ACPMobileServices.xcframework */; };
-		860FFA0D262D626600B93103 /* ACPSignal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA07262D626600B93103 /* ACPSignal.xcframework */; };
-		860FFA0E262D626600B93103 /* ACPIdentity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA08262D626600B93103 /* ACPIdentity.xcframework */; };
-		860FFA0F262D626600B93103 /* ACPCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA09262D626600B93103 /* ACPCore.xcframework */; };
-		860FFA10262D626600B93103 /* ACPLifecycle.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA0A262D626600B93103 /* ACPLifecycle.xcframework */; };
 		860FFA14262D627200B93103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA13262D627200B93103 /* UIKit.framework */; };
 		860FFA16262D627800B93103 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA15262D627800B93103 /* SystemConfiguration.framework */; };
 		860FFA18262D627E00B93103 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA17262D627E00B93103 /* WebKit.framework */; };
@@ -21,17 +15,17 @@
 		860FFA1F262D62C200B93103 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA1D262D62AA00B93103 /* libz.tbd */; };
 		860FFA21262D62CD00B93103 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA1C262D629000B93103 /* libc++.tbd */; };
 		860FFA23262D62D700B93103 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FFA1B262D628900B93103 /* libsqlite3.0.tbd */; };
+		8617145C26317B5F0055A78C /* ACPSignal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145626317B5F0055A78C /* ACPSignal.xcframework */; };
+		8617145D26317B5F0055A78C /* ACPMobileServices.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145726317B5F0055A78C /* ACPMobileServices.xcframework */; };
+		8617145E26317B5F0055A78C /* ACPIdentity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145826317B5F0055A78C /* ACPIdentity.xcframework */; };
+		8617145F26317B5F0055A78C /* ACPAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145926317B5F0055A78C /* ACPAnalytics.xcframework */; };
+		8617146026317B5F0055A78C /* ACPCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145A26317B5F0055A78C /* ACPCore.xcframework */; };
+		8617146126317B5F0055A78C /* ACPLifecycle.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8617145B26317B5F0055A78C /* ACPLifecycle.xcframework */; };
 		861BD15F262D60CD0059AE2C /* TNTagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 861BD15D262D60CD0059AE2C /* TNTagger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		860FF9FE262D620100B93103 /* TNTagEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNTagEngine.swift; sourceTree = "<group>"; };
-		860FFA03262D626600B93103 /* ACPAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPAnalytics.xcframework; sourceTree = "<group>"; };
-		860FFA05262D626600B93103 /* ACPMobileServices.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPMobileServices.xcframework; sourceTree = "<group>"; };
-		860FFA07262D626600B93103 /* ACPSignal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPSignal.xcframework; sourceTree = "<group>"; };
-		860FFA08262D626600B93103 /* ACPIdentity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPIdentity.xcframework; sourceTree = "<group>"; };
-		860FFA09262D626600B93103 /* ACPCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPCore.xcframework; sourceTree = "<group>"; };
-		860FFA0A262D626600B93103 /* ACPLifecycle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPLifecycle.xcframework; sourceTree = "<group>"; };
 		860FFA13262D627200B93103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		860FFA15262D627800B93103 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		860FFA17262D627E00B93103 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -39,6 +33,12 @@
 		860FFA1B262D628900B93103 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
 		860FFA1C262D629000B93103 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		860FFA1D262D62AA00B93103 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		8617145626317B5F0055A78C /* ACPSignal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPSignal.xcframework; sourceTree = "<group>"; };
+		8617145726317B5F0055A78C /* ACPMobileServices.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPMobileServices.xcframework; sourceTree = "<group>"; };
+		8617145826317B5F0055A78C /* ACPIdentity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPIdentity.xcframework; sourceTree = "<group>"; };
+		8617145926317B5F0055A78C /* ACPAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPAnalytics.xcframework; sourceTree = "<group>"; };
+		8617145A26317B5F0055A78C /* ACPCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPCore.xcframework; sourceTree = "<group>"; };
+		8617145B26317B5F0055A78C /* ACPLifecycle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPLifecycle.xcframework; sourceTree = "<group>"; };
 		861BD15A262D60CD0059AE2C /* TNTagger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNTagger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861BD15D262D60CD0059AE2C /* TNTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTagger.h; sourceTree = "<group>"; };
 		861BD15E262D60CD0059AE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,65 +49,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8617145E26317B5F0055A78C /* ACPIdentity.xcframework in Frameworks */,
 				860FFA23262D62D700B93103 /* libsqlite3.0.tbd in Frameworks */,
+				8617145F26317B5F0055A78C /* ACPAnalytics.xcframework in Frameworks */,
+				8617146126317B5F0055A78C /* ACPLifecycle.xcframework in Frameworks */,
+				8617146026317B5F0055A78C /* ACPCore.xcframework in Frameworks */,
 				860FFA21262D62CD00B93103 /* libc++.tbd in Frameworks */,
 				860FFA1F262D62C200B93103 /* libz.tbd in Frameworks */,
 				860FFA1A262D628200B93103 /* UserNotifications.framework in Frameworks */,
-				860FFA0E262D626600B93103 /* ACPIdentity.xcframework in Frameworks */,
-				860FFA0D262D626600B93103 /* ACPSignal.xcframework in Frameworks */,
-				860FFA0C262D626600B93103 /* ACPMobileServices.xcframework in Frameworks */,
-				860FFA10262D626600B93103 /* ACPLifecycle.xcframework in Frameworks */,
-				860FFA0F262D626600B93103 /* ACPCore.xcframework in Frameworks */,
 				860FFA18262D627E00B93103 /* WebKit.framework in Frameworks */,
 				860FFA14262D627200B93103 /* UIKit.framework in Frameworks */,
+				8617145C26317B5F0055A78C /* ACPSignal.xcframework in Frameworks */,
+				8617145D26317B5F0055A78C /* ACPMobileServices.xcframework in Frameworks */,
 				860FFA16262D627800B93103 /* SystemConfiguration.framework in Frameworks */,
-				860FFA0B262D626600B93103 /* ACPAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		860FFA01262D624A00B93103 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				860FFA02262D626600B93103 /* ACPAnalytics */,
-				860FFA06262D626600B93103 /* ACPCore */,
-				860FFA04262D626600B93103 /* ACPMobileServices */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		860FFA02262D626600B93103 /* ACPAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				860FFA03262D626600B93103 /* ACPAnalytics.xcframework */,
-			);
-			name = ACPAnalytics;
-			path = "../../../External Dependencies/Adobe/ACPAnalytics";
-			sourceTree = "<group>";
-		};
-		860FFA04262D626600B93103 /* ACPMobileServices */ = {
-			isa = PBXGroup;
-			children = (
-				860FFA05262D626600B93103 /* ACPMobileServices.xcframework */,
-			);
-			name = ACPMobileServices;
-			path = "../../../External Dependencies/Adobe/ACPMobileServices";
-			sourceTree = "<group>";
-		};
-		860FFA06262D626600B93103 /* ACPCore */ = {
-			isa = PBXGroup;
-			children = (
-				860FFA07262D626600B93103 /* ACPSignal.xcframework */,
-				860FFA08262D626600B93103 /* ACPIdentity.xcframework */,
-				860FFA09262D626600B93103 /* ACPCore.xcframework */,
-				860FFA0A262D626600B93103 /* ACPLifecycle.xcframework */,
-			);
-			name = ACPCore;
-			path = "../../../External Dependencies/Adobe/ACPCore";
-			sourceTree = "<group>";
-		};
 		860FFA12262D627200B93103 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +80,28 @@
 				860FFA13262D627200B93103 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8617145426317B5F0055A78C /* External Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				8617145526317B5F0055A78C /* Adobe */,
+			);
+			name = "External Dependencies";
+			path = "../../External Dependencies";
+			sourceTree = "<group>";
+		};
+		8617145526317B5F0055A78C /* Adobe */ = {
+			isa = PBXGroup;
+			children = (
+				8617145626317B5F0055A78C /* ACPSignal.xcframework */,
+				8617145726317B5F0055A78C /* ACPMobileServices.xcframework */,
+				8617145826317B5F0055A78C /* ACPIdentity.xcframework */,
+				8617145926317B5F0055A78C /* ACPAnalytics.xcframework */,
+				8617145A26317B5F0055A78C /* ACPCore.xcframework */,
+				8617145B26317B5F0055A78C /* ACPLifecycle.xcframework */,
+			);
+			path = Adobe;
 			sourceTree = "<group>";
 		};
 		861BD150262D60CD0059AE2C = {
@@ -142,7 +124,7 @@
 		861BD15C262D60CD0059AE2C /* TNTagger */ = {
 			isa = PBXGroup;
 			children = (
-				860FFA01262D624A00B93103 /* Vendor */,
+				8617145426317B5F0055A78C /* External Dependencies */,
 				861BD15D262D60CD0059AE2C /* TNTagger.h */,
 				861BD15E262D60CD0059AE2C /* Info.plist */,
 				860FF9FE262D620100B93103 /* TNTagEngine.swift */,

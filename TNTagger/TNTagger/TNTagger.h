@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double TNTaggerVersionNumber;
 FOUNDATION_EXPORT const unsigned char TNTaggerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TNTagger/PublicHeader.h>
-
-#import "ACPAnalytics.h"

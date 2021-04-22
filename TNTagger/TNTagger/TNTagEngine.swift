@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import ACPAnalytics
+import ACPCore
 
 public final class TNTagEngine {
     
@@ -16,6 +18,8 @@ public final class TNTagEngine {
     public func tag() {
         let analyticsVersion = ACPAnalytics.extensionVersion()
         print("§§ TNTagger > TNTagEngine > tag version = \(analyticsVersion)")
+        
+        ACPCore.setLogLevel(.debug)
     }
     
 }
